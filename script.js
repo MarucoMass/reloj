@@ -83,7 +83,7 @@ function fecha(){
     setInterval(() => {
         let tiempo = new Date();
     
-        reloj.innerHTML = tiempo.toLocaleTimeString();
+        reloj.innerHTML = tiempo.toLocaleTimeString() +" hs ";
     }, 1000);
 }
 
