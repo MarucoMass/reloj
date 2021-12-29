@@ -49,10 +49,30 @@ main{
 
 @media (max-width: 530px){
     #fecha{
-        padding: 15px;
-        margin-bottom: 20px;
+        padding: 25px;
+        margin-bottom: 40px;
     }#fecha__dia{
         font-size: 50px;
+        font-weight: bold;
+    }
+    #fecha__dia2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #hora{
+        padding: 20px;
+    }
+    #hora__tiempo{
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 410px){
+    #fecha{
+        padding: 15px;
+        margin-bottom: 30px;
+    }#fecha__dia{
+        font-size: 40px;
         font-weight: bold;
     }
     #fecha__dia2{
@@ -63,7 +83,7 @@ main{
         padding: 10px;
     }
     #hora__tiempo{
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
     }
 }
