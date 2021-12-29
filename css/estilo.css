@@ -47,3 +47,23 @@ main{
     font-weight: bold;
 }
 
+@media (max-width: 500px){
+    #fecha{
+        padding: 25px;
+        margin-bottom: 50px;
+    }#fecha__dia{
+        font-size: 70px;
+        font-weight: bold;
+    }
+    #fecha__dia2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #hora{
+        padding: 25px;
+    }
+    #hora__tiempo{
+        font-size: 70px;
+        font-weight: bold;
+    }
+}
