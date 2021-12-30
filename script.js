@@ -37,45 +37,41 @@ function fecha(){
     mes = date.getMonth();
     switch (date.getMonth()) {
         case 0:
-            dia2.innerHTML = fecha+" de "+" Diciembre "+" de "+anio;
-            break;
-        case 1:
             dia2.innerHTML = fecha+" de "+" Enero "+" de "+anio;
             break;
-        case 2:
+        case 1:
             dia2.innerHTML = fecha+" de "+" Febrero "+" de "+anio;
             break;
-        case 3:
+        case 2:
             dia2.innerHTML = fecha+" de "+" Marzo "+" de "+anio;
             break;
-        case 4:
+        case 3:
             dia2.innerHTML = fecha+" de "+" Abril "+" de "+anio;
             break;
-        case 5:
+        case 4:
             dia2.innerHTML = fecha+" de "+" Mayo "+" de "+anio;
             break;
-        case 6:
+        case 5:
             dia2.innerHTML = fecha+" de "+" Junio "+" de "+anio;
             break;
-        case 7:
+        case 6:
             dia2.innerHTML = fecha+" de "+" Julio "+" de "+anio;
             break;
-        case 8:
-            dia2.innerHTML = fecha+" de "+" Diciembre "+" de "+anio;
-            break;
-        case 9:
+        case 7:
             dia2.innerHTML = fecha+" de "+" Agosto "+" de "+anio;
             break;
-        case 10:
+        case 8:
             dia2.innerHTML = fecha+" de "+" Septiembre "+" de "+anio;
             break;
-        case 11:
+        case 9:
             dia2.innerHTML = fecha+" de "+" Octubre "+" de "+anio;
             break;
-        case 12:
+        case 10:
             dia2.innerHTML = fecha+" de "+" Noviembre "+" de "+anio;
             break;
-    
+        case 11:
+            dia2.innerHTML = fecha+" de "+" Diciembre "+" de "+anio;
+            break;
         default:
             break;
     }
